@@ -1,0 +1,26 @@
+{
+  "name": "broccoli-strip-comments",
+  "version": "1.0.0",
+  "description": "Simple Broccoli Plugin that remove Javascript comments",
+  "author": "Krzysztof Jan Modras <chrmod@chrmod.net>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrmod/broccoli-strip-comments.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "broccoli-plugin"
+  ],
+  "bugs": {
+    "url": "https://github.com/chrmod/broccoli-strip-comments/issues"
+  },
+  "homepage": "https://github.com/chrmod/broccoli-strip-comments#readme",
+  "dependencies": {
+    "broccoli-persistent-filter": "^1.4.2",
+    "strip-comments": "^0.4.4"
+  }
+}
